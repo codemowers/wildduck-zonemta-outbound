@@ -1,0 +1,23 @@
+{
+    "name": "wildduck-zonemta-outbound",
+    "version": "1.0.0",
+    "description": "ZoneMTA application purposed as outbound mailserver for Wildduck",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js --config=/config/zonemta.toml"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/codemowers/ wildduck-zonemta-outbound.git"
+    },
+    "author": "Lauri Võsandi",
+    "license": "EUPL-1.1+",
+    "dependencies": {
+        "zone-mta": "3.6.5",
+        "zonemta-avast": "1.0.0",
+        "zonemta-delivery-counters": "1.0.1",
+        "zonemta-limiter": "1.0.0",
+        "zonemta-loop-breaker": "1.0.2",
+        "zonemta-wildduck": "1.32.1"
+    }
+}
