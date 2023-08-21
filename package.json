@@ -13,7 +13,7 @@
     "author": "Lauri Võsandi",
     "license": "EUPL-1.1+",
     "dependencies": {
-        "zone-mta": "3.6.5",
+        "zone-mta": "3.6.6",
         "zonemta-avast": "1.0.0",
         "zonemta-delivery-counters": "1.0.1",
         "zonemta-limiter": "1.0.0",
