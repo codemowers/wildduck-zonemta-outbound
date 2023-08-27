@@ -2,6 +2,8 @@ FROM node:lts-alpine as builder
 WORKDIR /app
 COPY package.json /app
 RUN npm install --production
+WORKDIR /app/plugins
+RUN ln -s ../node_modules/zonemta-wildduck wildduck
 
 FROM node:lts-alpine as app
 ENV NODE_ENV production
